@@ -80,4 +80,5 @@ p + facet_grid(. ~ Top10quartile)
 
 ## tip: don't need to iterate too much. 
 ggplot(college, aes(x=S.F.Ratio, y=Grad.Rate)) + geom_boxplot() +
-    geom_point() + facet_grid(. ~ Top10quartile)
+    geom_point() + facet_grid(. ~ Top10quartile) +
+        ggtitle("Graduation Rate vs. Student-Faculty Ratio, by Top 10 Quartiles")

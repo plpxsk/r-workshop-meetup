@@ -3,32 +3,19 @@ Pawel Paczuski [pavopax.com]   [AMA!]
 
 QUICK START
 ===============================================================================
-see Transcript.txt
-
-prep work below
+see slides
 
 
-prep work: install R and packages, etc
+
+OVERVIEW/PROGRAMS
 ===============================================================================
-all systems supported (Mac/Windows/Linux)
+3 modules: introduction; ggplot/dplyr; statistical modeling:
 
-1. download R:
-http://cran.r-project.org
-
-2. download RStudio Desktop
-http://www.rstudio.com/products/rstudio/download/
-
-3. install the following "packages", in RStudio*
-dplyr
-ggplot2
-MASS
-ISLR
-
-* to install a package, in Rstudio:
-1. go to: Tools-Install Packages...
-2. type in the package name(s)
-3. and use the default options
-
+/programs
+1-intro.R
+2-ggplot2.R
+2b-dplyr.R
+3-stats.R
 
 Instructor Bio
 ===============================================================================

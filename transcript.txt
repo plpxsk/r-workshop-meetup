@@ -3,63 +3,85 @@ Pawel Paczuski [pavopax.com]   [AMA!]
 
 QUICK START
 ===============================================================================
+this is the Transcript of the Hands on R Tutorial
+February 7, 2015
+Cambridge, MA
+
 
 OVERVIEW/CONTENTS
 ===============================================================================
-download college.csv from website
+INTRO
+Module 1: Introduction to R
+Module 2: Graphics And Data Manipulation Using ggplot and dplyr
+Module 3: Statistical Modeling (Matthew Eaton)
+
+with tutorials, exercises, and breaks
+
+
+* intro tutorial from James et al
+* custom ggplot2 tutorial
+* vignette from dplyr
+* custom stats modeling tutorial
+
+
+
+First, a bit more prep work:
+===============================================================================
+get book "James et al" from:
 http://www-bcf.usc.edu/~gareth/ISL/
 
-install one more package: ROCR
+download college.csv from:
+http://www-bcf.usc.edu/~gareth/ISL/data.html
+
+install one more R package: ROCR
+
 
 INTRO
 ===============================================================================
-teaching philosohpy: less talking, more doing
-with lots of feedback
-
-
-after installation, etc
-0) to whet appetite , type a few quick lines to get plot and linear regression prediction
+* Introduce Instructors
+* Say hi to neighbor
 
 
 
-
-Module 1: introduction to R
+Module 1: Introduction to R
 ===============================================================================
-"R is a free software environemnt for stastical computing and graphics"
+"R is a free software environment for statistical computing and graphics"
 
 "The best way to learn a new language is to try out the commands"
 
 ## Tutorial
+`/programs/1-intro.R`
+
+start together, then go through individually
 go through Lab 2.3 in James et al, p 42-52
 
 ## exercise
 in James et al, exercise 8 p 54
 
-
-
 ## Tips
-
+* set up directory structure ahead of time
+* library() calls at top
+* document programs in a README file
+* use style guide
 
 
 ## regroup, Q&A
 
 
 
-
-
-
-Module 2: graphics and data manipulation using ggplot and dplyr
+Module 2: Graphics And Data Manipulation using ggplot and dplyr
 ===============================================================================
-[find top R packages]
+R packages are simply add-ons: for more or better functionality
 
-	R packages are simply add-ons: for more or better functionality
+## (A) ggplot2  
+"ggplot2 is designed to work in a layered fashion, starting with a
+layer showing the raw data then adding layers of annotation and
+statistical summaries. [..]"
 
-## (A) ggplot2
-"ggplot2 is designed to work in a layered fashion, starting with a layer showing the raw data then adding layers of annotation and statistical summaries. [..]"
+## tutorial
+`/programs/2-ggplot2.R`
 
-
-
-
+## exercise below
 
 ## (B) dplyr
 dplyr couldn't be easier, with the use of the following verbs as R functions:
@@ -71,11 +93,11 @@ dplyr couldn't be easier, with the use of the following verbs as R functions:
 * *Summarise* chunks of your data in some way
 
 
-Now, for very large data, R may be slow. But Dplyr has many of its parts written
+Now, for very large data, R may be slow. But dplyr has many of its parts written
 in C++ which makes it extremely fast
 
 ## dplyr tutorial
-vignette("introduction", "dplyr")
+`vignette("introduction", "dplyr")`
 
 ## exercise
 explore the college.csv dataset using ggplot2 and dplyr
@@ -87,6 +109,12 @@ as an exercise, reproduce a graphic from
 T. Piketty's Capitalism book
 https://github.com/pavopax/piketty
 
+also see:
+http://simplystatistics.org/2014/06/30/piketty-in-r-markdown-we-need-some-help-from-the-crowd/
+
+
+
+
 
 
 ## regroup, Q&A
@@ -94,15 +122,15 @@ https://github.com/pavopax/piketty
 
 
 
-Module 3: Statistical modeling 
+Module 3: Statistical Modeling 
 ===============================================================================
 Matthew Eaton
 
 ## Tutorial
-ModelingWorkshop.R
+`/programs/3-stats.R`
 
 ## Slides
-ModelingWorkshop.pptx
+`3-slides.pptx`
 
 
 ## Tips
@@ -117,7 +145,7 @@ Resources
 ===============================================================================
 stackoverflow.com (do a tutorial)
 
-Data Wrangling Handout: download and print
+Data Wrangling Handout: download and print [PDF]
 http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
 
 R graph catalog
@@ -127,12 +155,17 @@ ggplot2 documentation
 http://docs.ggplot2.org/current/
 http://ggplot2.org
 
+R colors [PDF]
+http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
+
 Other handouts
 http://www.rstudio.com/resources/cheatsheets/
-
+http://www.ceb-institute.org/bbs/wp-content/uploads/2011/09/handout_ggplot2.pdf
 
 Credits 
 ===============================================================================
+Hadley Wickham: dplyr, ggplot2, etc etc
+
 http://seananderson.ca/2014/09/13/dplyr-intro.html
 
 http://ggplot2.org/resources/2007-vanderbilt.pdf

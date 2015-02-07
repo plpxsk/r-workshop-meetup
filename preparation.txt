@@ -1,0 +1,30 @@
+All systems supported (Mac/Windows/Linux)
+
+1. download R:
+http://cran.r-project.org
+
+2. download RStudio Desktop
+http://www.rstudio.com/products/rstudio/download/
+
+3. install the following "packages", in RStudio*
+dplyr
+ggplot2
+MASS
+ISLR
+ROCR <- this was newly added!
+
+
+* to install a package, in Rstudio:
+1. go to: Tools-Install Packages...
+2. type in the package name(s)
+3. and use the default options
+
+
+4. get book and data
+
+get book "James et al" from:
+http://www-bcf.usc.edu/~gareth/ISL/
+
+download college.csv from:
+http://www-bcf.usc.edu/~gareth/ISL/data.html
+
