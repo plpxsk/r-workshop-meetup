@@ -1,0 +1,138 @@
+# Transcript				-*- mode: markdown -*-
+Pawel Paczuski [pavopax.com]   [AMA!] 	
+
+QUICK START
+===============================================================================
+
+OVERVIEW/CONTENTS
+===============================================================================
+download college.csv from website
+http://www-bcf.usc.edu/~gareth/ISL/
+
+install one more package: ROCR
+
+INTRO
+===============================================================================
+teaching philosohpy: less talking, more doing
+with lots of feedback
+
+
+after installation, etc
+0) to whet appetite , type a few quick lines to get plot and linear regression prediction
+
+
+
+
+Module 1: introduction to R
+===============================================================================
+"R is a free software environemnt for stastical computing and graphics"
+
+"The best way to learn a new language is to try out the commands"
+
+## Tutorial
+go through Lab 2.3 in James et al, p 42-52
+
+## exercise
+in James et al, exercise 8 p 54
+
+
+
+## Tips
+
+
+
+## regroup, Q&A
+
+
+
+
+
+
+Module 2: graphics and data manipulation using ggplot and dplyr
+===============================================================================
+[find top R packages]
+
+	R packages are simply add-ons: for more or better functionality
+
+## (A) ggplot2
+"ggplot2 is designed to work in a layered fashion, starting with a layer showing the raw data then adding layers of annotation and statistical summaries. [..]"
+
+
+
+
+
+## (B) dplyr
+dplyr couldn't be easier, with the use of the following verbs as R functions:
+
+* *Select* data columns
+* *Filter* data to select specific rows
+* *Arrange* the rows in order
+* *Mutate* your data to add new columns
+* *Summarise* chunks of your data in some way
+
+
+Now, for very large data, R may be slow. But Dplyr has many of its parts written
+in C++ which makes it extremely fast
+
+## dplyr tutorial
+vignette("introduction", "dplyr")
+
+## exercise
+explore the college.csv dataset using ggplot2 and dplyr
+send results to pavopax@gmail.com
+and we can all see your amazing results
+
+extra credit:
+as an exercise, reproduce a graphic from
+T. Piketty's Capitalism book
+https://github.com/pavopax/piketty
+
+
+
+## regroup, Q&A
+
+
+
+
+Module 3: Statistical modeling 
+===============================================================================
+Matthew Eaton
+
+## Tutorial
+ModelingWorkshop.R
+
+## Slides
+ModelingWorkshop.pptx
+
+
+## Tips
+
+
+## regroup, Q&A
+
+
+
+
+Resources
+===============================================================================
+stackoverflow.com (do a tutorial)
+
+Data Wrangling Handout: download and print
+http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
+
+R graph catalog
+http://shinyapps.stat.ubc.ca/r-graph-catalog/
+
+ggplot2 documentation
+http://docs.ggplot2.org/current/
+http://ggplot2.org
+
+Other handouts
+http://www.rstudio.com/resources/cheatsheets/
+
+
+Credits 
+===============================================================================
+http://seananderson.ca/2014/09/13/dplyr-intro.html
+
+http://ggplot2.org/resources/2007-vanderbilt.pdf
