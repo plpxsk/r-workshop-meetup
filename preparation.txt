@@ -1,5 +1,7 @@
 All systems supported (Mac/Windows/Linux)
 
+**There are 4 steps**
+
 1. download R:
 http://cran.r-project.org
 
