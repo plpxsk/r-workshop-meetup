@@ -1,5 +1,5 @@
-# R Workshop readme		-*- mode: markdown -*-
-Pawel Paczuski [pavopax.com]   [AMA!] 	
+# R Workshop readme
+Pawel Paczuski [pavopax.com]
 
 QUICK START
 ===============================================================================
