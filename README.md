@@ -3,7 +3,8 @@ Pawel Paczuski [pavopax.com]
 
 QUICK START
 ===============================================================================
-make sure all requirements are ready:
+1. download this repository as ZIP (see right).
+2. make sure all requirements are ready:  
 See: `preparation.txt`
 
 
