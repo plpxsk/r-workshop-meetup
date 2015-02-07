@@ -3,7 +3,11 @@ Pawel Paczuski [pavopax.com]
 
 QUICK START
 ===============================================================================
-see slides
+make sure all requirements are ready:
+See: `preparation.txt`
+
+
+slides will be used during presentation
 
 
 
