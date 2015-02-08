@@ -15,6 +15,7 @@ slides will be used during presentation:
 * 3-slides.pdf  
 
 
+
 Overview/Programs
 ===============================================================================
 3 modules:  
@@ -28,6 +29,10 @@ Overview/Programs
 2-ggplot2.R  
 2b-dplyr.R  
 3-stats.R  
+
+`college.csv` is used in some modules, and is described in James et al,
+Exercise 8, p 84
+
 
 
 Resources
@@ -57,3 +62,6 @@ Hadley Wickham: dplyr, ggplot2, etc etc
 
 http://seananderson.ca/2014/09/13/dplyr-intro.html  
 http://ggplot2.org/resources/2007-vanderbilt.pdf   
+
+using college.csv data from:  
+http://www-bcf.usc.edu/~gareth/ISL/data.html  
