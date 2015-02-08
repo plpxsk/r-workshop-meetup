@@ -1,7 +1,7 @@
-# R Workshop readme
+# R Workshop 2/7/2015
 Pawel Paczuski [pavopax.com]
 
-QUICK START
+Quick Start
 ===============================================================================
 1. download this repository as ZIP (see right).
 2. make sure all requirements are ready:  
@@ -12,7 +12,7 @@ slides will be used during presentation
 
 
 
-OVERVIEW/PROGRAMS
+Overview/Programs
 ===============================================================================
 3 modules:  
 1. introduction  
@@ -31,27 +31,26 @@ Resources
 ===============================================================================
 stackoverflow.com
 
-Data Wrangling Handout: download and print [PDF]
+Data Wrangling Handout: download and print [PDF]  
 http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
 
-R graph catalog
+R graph catalog  
 http://shinyapps.stat.ubc.ca/r-graph-catalog/
 
-ggplot2 documentation
-http://docs.ggplot2.org/current/
-http://ggplot2.org
+ggplot2 documentation  
+http://docs.ggplot2.org/current/  
+http://ggplot2.org  
 
-R colors [PDF]
+R colors [PDF]  
 http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
 
-Other handouts
-http://www.rstudio.com/resources/cheatsheets/
-http://www.ceb-institute.org/bbs/wp-content/uploads/2011/09/handout_ggplot2.pdf
+Other handouts  
+http://www.rstudio.com/resources/cheatsheets/  
+http://www.ceb-institute.org/bbs/wp-content/uploads/2011/09/handout_ggplot2.pdf  
 
 Credits 
 ===============================================================================
-Hadley Wickham: dplyr, ggplot2, etc etc
+Hadley Wickham: dplyr, ggplot2, etc etc  
 
-http://seananderson.ca/2014/09/13/dplyr-intro.html
-
-http://ggplot2.org/resources/2007-vanderbilt.pdf
+http://seananderson.ca/2014/09/13/dplyr-intro.html  
+http://ggplot2.org/resources/2007-vanderbilt.pdf   
