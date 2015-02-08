@@ -1,6 +1,6 @@
 # R Workshop 2/7/2015
-Pawel (Paul) Paczuski [pavopax.com]  
-with Matthew Eaton
+[Pawel (Paul) Paczuski](pavopax.com)  
+with [Matthew Eaton](https://twitter.com/CompBioMatt)
 
 
 Quick Start

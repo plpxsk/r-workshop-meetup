@@ -21,11 +21,9 @@ ROCR
 3. and use the default options
 
 
-4. GET BOOK AND DATA
+4. GET BOOK
 
 get book "James et al" from:
 http://www-bcf.usc.edu/~gareth/ISL/
 
-download college.csv from:
-http://www-bcf.usc.edu/~gareth/ISL/data.html
 
