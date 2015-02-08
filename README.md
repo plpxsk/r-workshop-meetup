@@ -1,5 +1,7 @@
 # R Workshop 2/7/2015
 Pawel (Paul) Paczuski [pavopax.com]
+with Matthew Eaton
+
 
 Quick Start
 ===============================================================================
@@ -15,9 +17,9 @@ slides will be used during presentation
 Overview/Programs
 ===============================================================================
 3 modules:  
-1. introduction  
-2. ggplot/dplyr  
-3. statistical modeling  
+1. introduction (Paul)  
+2. ggplot/dplyr (Paul)   
+3. statistical modeling (Matt)  
 
 
 /programs  
