@@ -1,5 +1,5 @@
 # R Workshop 2/7/2015
-Pawel Paczuski [pavopax.com]
+Pawel (Paul) Paczuski [pavopax.com]
 
 Quick Start
 ===============================================================================
