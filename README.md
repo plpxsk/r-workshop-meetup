@@ -10,8 +10,9 @@ Quick Start
 See: `preparation.txt`
 
 
-slides will be used during presentation
-
+slides will be used during presentation:
+* 1-2-slides.pdf  
+* 3-slides.pdf  
 
 
 Overview/Programs
