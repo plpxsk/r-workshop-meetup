@@ -11,14 +11,14 @@ Cambridge, MA
 OVERVIEW/CONTENTS
 ===============================================================================
 INTRO
-Module 1: Introduction to R
-Module 2: Graphics And Data Manipulation Using ggplot and dplyr
-Module 3: Statistical Modeling (Matthew Eaton)
+Module 1: Introduction to R  
+Module 2: Graphics And Data Manipulation Using ggplot and dplyr  
+Module 3: Statistical Modeling (Matthew Eaton)  
 
-with tutorials, exercises, and breaks
+with tutorials, exercises, and breaks  
 
 
-* intro tutorial from James et al
+* intro tutorial from James et al  
 * custom ggplot2 tutorial
 * vignette from dplyr
 * custom stats modeling tutorial
@@ -101,8 +101,6 @@ in C++ which makes it extremely fast
 
 ## exercise
 explore the college.csv dataset using ggplot2 and dplyr
-send results to pavopax@gmail.com
-and we can all see your amazing results
 
 extra credit:
 as an exercise, reproduce a graphic from
@@ -111,11 +109,6 @@ https://github.com/pavopax/piketty
 
 also see:
 http://simplystatistics.org/2014/06/30/piketty-in-r-markdown-we-need-some-help-from-the-crowd/
-
-
-
-
-
 
 ## regroup, Q&A
 
@@ -130,42 +123,10 @@ Matthew Eaton
 `/programs/3-stats.R`
 
 ## Slides
-`3-slides.pptx`
+`3-slides.pdf`
 
 
 ## Tips
 
 
 ## regroup, Q&A
-
-
-
-
-Resources
-===============================================================================
-stackoverflow.com (do a tutorial)
-
-Data Wrangling Handout: download and print [PDF]
-http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
-
-R graph catalog
-http://shinyapps.stat.ubc.ca/r-graph-catalog/
-
-ggplot2 documentation
-http://docs.ggplot2.org/current/
-http://ggplot2.org
-
-R colors [PDF]
-http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
-
-Other handouts
-http://www.rstudio.com/resources/cheatsheets/
-http://www.ceb-institute.org/bbs/wp-content/uploads/2011/09/handout_ggplot2.pdf
-
-Credits 
-===============================================================================
-Hadley Wickham: dplyr, ggplot2, etc etc
-
-http://seananderson.ca/2014/09/13/dplyr-intro.html
-
-http://ggplot2.org/resources/2007-vanderbilt.pdf

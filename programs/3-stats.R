@@ -1,5 +1,5 @@
 ## read in dataset
-college <- read.csv("College.csv")
+college <- read.csv("../data/College.csv")
 rownames(college) <- college$X
 college$X <- NULL
 college <- college[college$Grad.Rate < 100,]
@@ -47,7 +47,7 @@ plot(lm.fit)
 
 ## Multiple Regression (multiple independant variables)
 lm.fit.mult <- lm(Grad.Rate ~ Top10perc + Private,data=college)
-.coef(lm.fit.mult) ## some might argue this means being a private school adds 10% to the graduation rate
+coef(lm.fit.mult) ## some might argue this means being a private school adds 10% to the graduation rate
 ## only true if Top10perc and Private are totally independant, which is not true, but still a useful measure
 par(mfrow=c(1,1))
 plot(college$Top10perc,college$Grad.Rate,col=ifelse(college$Private=="Yes",'red','blue'))
