@@ -1,0 +1,132 @@
+# Transcript				-*- mode: markdown -*-
+Pawel Paczuski [pavopax.com]   [AMA!] 	
+
+QUICK START
+===============================================================================
+this is the Transcript of the Hands on R Tutorial
+February 7, 2015
+Cambridge, MA
+
+
+OVERVIEW/CONTENTS
+===============================================================================
+INTRO
+Module 1: Introduction to R  
+Module 2: Graphics And Data Manipulation Using ggplot and dplyr  
+Module 3: Statistical Modeling (Matthew Eaton)  
+
+with tutorials, exercises, and breaks  
+
+
+* intro tutorial from James et al  
+* custom ggplot2 tutorial
+* vignette from dplyr
+* custom stats modeling tutorial
+
+
+
+First, a bit more prep work:
+===============================================================================
+get book "James et al" from:
+http://www-bcf.usc.edu/~gareth/ISL/
+
+download college.csv from:
+http://www-bcf.usc.edu/~gareth/ISL/data.html
+
+install one more R package: ROCR
+
+
+INTRO
+===============================================================================
+* Introduce Instructors
+* Say hi to neighbor
+
+
+
+Module 1: Introduction to R
+===============================================================================
+"R is a free software environment for statistical computing and graphics"
+
+"The best way to learn a new language is to try out the commands"
+
+## Tutorial
+`/programs/1-intro.R`
+
+start together, then go through individually
+go through Lab 2.3 in James et al, p 42-52
+
+## exercise
+in James et al, exercise 8 p 54
+
+## Tips
+* set up directory structure ahead of time
+* library() calls at top
+* document programs in a README file
+* use style guide
+
+
+## regroup, Q&A
+
+
+
+Module 2: Graphics And Data Manipulation using ggplot and dplyr
+===============================================================================
+R packages are simply add-ons: for more or better functionality
+
+## (A) ggplot2  
+"ggplot2 is designed to work in a layered fashion, starting with a
+layer showing the raw data then adding layers of annotation and
+statistical summaries. [..]"
+
+## tutorial
+`/programs/2-ggplot2.R`
+
+## exercise below
+
+## (B) dplyr
+dplyr couldn't be easier, with the use of the following verbs as R functions:
+
+* *Select* data columns
+* *Filter* data to select specific rows
+* *Arrange* the rows in order
+* *Mutate* your data to add new columns
+* *Summarise* chunks of your data in some way
+
+
+Now, for very large data, R may be slow. But dplyr has many of its parts written
+in C++ which makes it extremely fast
+
+## dplyr tutorial
+`vignette("introduction", "dplyr")`
+
+## exercise
+explore the college.csv dataset using ggplot2 and dplyr
+
+extra credit:
+as an exercise, reproduce a graphic from
+T. Piketty's Capitalism book
+https://github.com/pavopax/piketty
+
+also see:
+http://simplystatistics.org/2014/06/30/piketty-in-r-markdown-we-need-some-help-from-the-crowd/
+
+## regroup, Q&A
+
+
+
+
+Module 3: Statistical Modeling 
+===============================================================================
+Matthew Eaton
+
+## Tutorial
+`/programs/3-stats.R`
+
+## Slides
+`3-slides.pdf`
+
+
+## Tips
+
+
+## regroup, Q&A
