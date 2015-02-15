@@ -15,17 +15,11 @@ slides will be used during presentation:
 
 Overview/Programs
 ===============================================================================
-3 modules:  
-1. introduction (Paul)  
-2. ggplot/dplyr (Paul)   
-3. statistical modeling (Matt)  
 
-
-/programs  
-1-intro.R  
-2-ggplot2.R  
-2b-dplyr.R  
-3-stats.R  
+R programs in /programs
+|introduction |Paul |1-intro.R|1-2-slides.pdf|
+|ggplot/dplyr |Paul |2-ggplot2.R, 2b-dplyr.R|1-2-slides.pdf|
+|statistical modeling |Matt | 3-stats.R|3-slides.pdf|
 
 `college.csv` is used in some modules, and is described in James et al,
 Exercise 8, p 84
