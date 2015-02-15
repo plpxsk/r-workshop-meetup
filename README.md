@@ -16,8 +16,8 @@ slides will be used during presentation:
 Overview/Programs
 ===============================================================================
 
-R programs in /programs
-
+|module||/programs||slides|
+|---|---|---|---|---|
 |introduction |Paul |1-intro.R|1-2-slides.pdf|
 |ggplot/dplyr |Paul |2-ggplot2.R, 2b-dplyr.R|1-2-slides.pdf|
 |statistical modeling |Matt | 3-stats.R|3-slides.pdf|
