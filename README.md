@@ -7,29 +7,27 @@ Quick Start
 See: `preparation.txt`
 
 
-slides will be used during presentation:
-* 1-2-slides.pdf  
-* 3-slides.pdf  
-
-
-
 Overview/Programs
 ===============================================================================
 
-|module||/programs||slides|
-|---|---|---|---|---|
-|introduction |Paul |1-intro.R|1-2-slides.pdf|
+|Module|Instructor|/programs|slides|
+|---|---|---|---|
+|Introduction |Paul |1-intro.R|1-2-slides.pdf|
 |ggplot/dplyr |Paul |2-ggplot2.R, 2b-dplyr.R|1-2-slides.pdf|
-|statistical modeling |Matt | 3-stats.R|3-slides.pdf|
+|Statistical modeling |Matt | 3-stats.R|3-slides.pdf|
 
-`college.csv` is used in some modules, and is described in James et al,
+`/data/College.csv` is used in some modules, and is described in James et al,
 Exercise 8, p 84
 
 
 
 Resources
 ===============================================================================
-stackoverflow.com
+Selections from ISLR text:  
+James, Witten, Hastie, Tibshirani. An Introduction to Statistical
+Learning, with Applications in R. http://www-bcf.usc.edu/~gareth/ISL/
+
+[stackoverflow.com](http://stackoverflow.com)
 
 Data Wrangling Handout: download and print [PDF]  
 http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
@@ -55,5 +53,5 @@ Hadley Wickham: dplyr, ggplot2, etc etc
 http://seananderson.ca/2014/09/13/dplyr-intro.html  
 http://ggplot2.org/resources/2007-vanderbilt.pdf   
 
-using college.csv data from:  
+using College.csv data from:  
 http://www-bcf.usc.edu/~gareth/ISL/data.html  
